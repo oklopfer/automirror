@@ -148,7 +148,7 @@ def changesources(subdomain):
 
     global sources
     sources = sources.replace("DISTRIBUTION", distro)
-    sources = sources.replace("./CODENAME", get./CODENAME())
+    sources = sources.replace("CODENAME", getCODENAME())
     sources = sources.replace("URL", url)
     sources = sources.replace("DATE", strftime("%Y-%m-%d"))
 
